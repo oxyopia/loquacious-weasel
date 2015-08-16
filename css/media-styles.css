@@ -1,0 +1,513 @@
+/*------------------------------------*\
+    MEDIA QUERIES
+\*------------------------------------*/
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+/*------------------------------------*\
+    SMALL SCREEN HEADER
+\*------------------------------------*/
+
+@media (min-width: 768px) {
+    
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+/*------------------------------------*\
+    SMALL SCREEN FOOTER
+\*------------------------------------*/
+
+@media screen and (min-width: 992px) {
+	
+	.footer-menu {
+		display: block;
+	}		
+}
+
+/*------------------------------------*\
+    SMALL SCREENS - PHONES
+\*------------------------------------*/
+
+@media screen and (max-width: 529px) {
+	
+	.full-width {
+		margin: 0 auto;
+		width: 100%;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	
+	.spacer {
+		display: block;
+	}
+	
+	.mobile-hide {
+		display: none;
+	}
+	
+	.mobile-view {
+		display: block;
+	}
+	
+	/* SERVICES */
+	
+	.service-grid .service {
+        width: 100%;
+        min-height: 130px;
+    }
+    
+    .service-icon {
+		padding: 13px 10px 0px;
+		font-size: 1.3em;
+	}
+	
+	.service-icon h3 {
+		font-size: 1em;
+	}
+	
+	.service-icon img {
+		height: 55px;
+	}
+		
+	.service-description {
+		padding: 10px;
+		font-size: .8em;
+	}
+	
+	/* RECENT PROJECTS */
+	
+	.carousel-indicators {
+		display: none;
+	}
+	
+	.carousel-control {
+		display: none;
+	}
+	
+	/* ABOUT ME */
+	
+	.abouttext {
+	    width: 100%;
+	    float: none;
+	    padding: 5%;
+	}
+	
+	.about-icon {
+		display: block;	
+	}
+	
+	.window-1 {
+	    background: #85cc29;
+	    height: 100%;
+	}
+	
+	.window-2 {
+	    background: #f8c137;
+	    height: 100%;
+	}
+	
+	.window-3 {
+	    background: #258185;
+	    height: 100%;
+	}
+	
+	.window-4 {
+	    background: #ff5252;
+	    height: 100%;
+	}
+	
+	/* CONTACT */
+	
+	.glyphicon-hand-left {
+		display: none;
+	}
+	
+	.glyphicon-hand-up {
+		display: inline-block;
+		
+	}
+}
+
+@media screen and (max-width: 240px) {
+	
+	h1 {
+		font-size: 2em;
+	}
+	
+	h2 {
+		font-size: 24px;
+	}
+	
+	.info {
+		font-size: 1em;
+	}
+
+	/* HEADER */
+	
+	.site-title h1 {
+		font-size: 3em;
+		line-height: 0.6em;
+	}
+		
+	.welcome {
+		font-size: 2em;	
+	}
+	
+	/* RGI */
+	
+	.pillar {
+		height: 100px;
+		width: 42px;
+	}
+}
+
+@media screen and (min-width: 241px) and (max-width: 529px) {
+
+	h1 {
+		font-size: 3em;
+	}
+	
+	/* HEADER */
+	
+	.site-title {
+		padding: 1px;
+	}
+	
+	.site-title h1 {
+		font-size: 4em;
+		line-height: 0.6em;
+	}
+	
+	.navbar-brand {
+		color: #ffffff;
+		font-family: museo-slab;
+	}
+	
+	/* RGI */
+	
+	.pillar {
+		height: 160px;
+		width: 57px;
+	}
+	
+}
+
+/*------------------------------------*\
+    MEDIUM SCREENS - TABLETS
+\*------------------------------------*/
+
+@media screen and (min-width: 530px) and (max-width: 820px) {
+	
+	.spacer {
+		display: block;
+	}
+	
+	.mobile-hide {
+		display: none;
+	}
+	
+	.mobile-view {
+		display: block;
+	}
+	
+	/* RECENT PROJECTS */
+	
+	.carousel-indicators {
+		display: none;
+	}
+	.carousel-control {
+		display: none;
+	}
+	
+	
+	/* ABOUT ME */
+	
+	.abouttext {
+	    width: 100%;
+	    float: none;
+	    padding: 5%;
+	}
+	
+	.about-icon {
+		display: block;
+	}
+	
+	.window-1 {
+	    background: #85cc29;
+	    height: 100%;
+	}
+	
+	.window-2 {
+	    background: #f8c137;
+	    height: 100%;
+	}
+	
+	.window-3 {
+	    background: #258185;
+	    height: 100%;
+	}
+	
+	.window-4 {
+	    background: #ff5252;
+	    height: 100%;
+	}
+	
+	/* CONTACT */
+	
+	.glyphicon-hand-left {
+		display: none;
+	}
+	
+	.glyphicon-hand-up {
+		display: inline-block;
+		
+	}		
+}
+
+@media screen and (min-width: 530px) and (max-width: 645px) {
+
+	h1 {
+		font-size: 3em;
+	}
+	
+	/* HEADER */
+	
+	.site-title {
+		padding: 1px;
+	}
+	
+	.site-title h1 {
+		font-size: 4em;
+		line-height: 0.6em;
+	}
+	
+	.navbar-brand {
+		color: #ffffff;
+		font-family: museo-slab;
+	}
+	
+	/* SERVICES */
+
+	.service-grid .service {
+        width: 50%;
+        min-height: 200px;
+    }
+    
+    .service-icon {
+		padding: 20px 10px 0px;
+		font-size: 1.3em;
+	}
+	
+	.service-icon h3 {
+		font-size: 1em;
+	}
+	
+	.service-icon img {
+		height: 100px;
+	}
+		
+	.service-description {
+		padding: 20px;
+		font-size: 0.9em;
+	}
+	
+	/* CODING CIRCLES */
+	
+	.under-circles {
+		width: 100%;
+		padding-bottom: 25px;
+		text-align: center;
+	}
+	
+	/* RGI */
+	
+	.pillar {
+		width: 100px;
+	}
+	
+}
+
+@media screen and (min-width: 646px) and (max-width: 820px) {
+
+	/* SERVICES */
+    
+    .service-grid .service {
+        width: 50%;
+    }
+    
+    .service-description {
+	    padding: 33px;
+    }
+    .service-icon {
+	    padding: 24px;
+    }
+    
+    /* CODING CIRCLES */
+    
+    .coding div {
+		margin: -7% auto;
+	}
+	
+	.circle-text1 div {
+		padding-top: 45%;
+	}
+	
+	.circle-text2 div {
+		padding-top: 45%;
+	}
+	
+	.circle-text3 div {
+		font-size: 1.5em;
+	}
+	
+	.coding {
+		padding-bottom: 60px;
+	}
+}
+
+@media screen and (min-width: 821px) and (max-width: 991px) {
+		
+	.spacer {
+		display: block;
+	}
+    
+    /* SERVICES */
+    
+    .service-grid .service {
+        width: 50%;
+    }
+    
+    .service-description {
+	    padding: 33px;
+    }
+    
+    .service-icon {
+	    padding: 24px;
+    }
+
+	.coding {
+		padding-bottom: 60px;
+	}
+	
+	/* CONTACT */
+	.mobile-hide {
+		display: none;
+	}
+	
+	/* ABOUT ME */
+	
+	.window-1 {
+		background: #85cc29 url("../images/about/lightbulb.png") no-repeat 26% 26% fixed;
+		height: 520px;
+	}
+	
+	.window-2 {
+		background: #f8c137 url("../images/about/gears.png") no-repeat 26% 26% fixed;
+		height: 500px;
+	}
+	
+	.window-3 {
+		background: #258185 url("../images/about/cat.png") no-repeat 26% 26% fixed;
+		height: 525px;
+	}
+	
+	.window-4 {
+		background: #ff5252 url("../images/about/heart.png") no-repeat 26% 26% fixed;
+		height: 500px;
+	}
+	
+	/* CONTACT */
+	
+	.glyphicon-hand-left {
+		display: none;
+	}
+	
+	.glyphicon-hand-up {
+		display: inline-block;
+	}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+
+	/* SERVICES */
+	
+	.service-description {
+		padding: 40px;
+	}
+	
+	/* RGI */
+	
+	.pillar {
+		height: 260px;
+		width: 90px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1110px) {
+
+	/* ABOUT ME */
+	
+	.window-1 {
+		background: #85cc29 url("../images/about/lightbulb.png") no-repeat 26% 26% fixed;
+		height: 505px;
+	}
+	
+	.window-2 {
+		background: #f8c137 url("../images/about/gears.png") no-repeat 26% 26% fixed;
+		height: 450px;
+	}
+	
+	.window-3 {
+		background: #258185 url("../images/about/cat.png") no-repeat 26% 26% fixed;
+		height: 450px;
+	}
+	
+	.window-4 {
+		background: #ff5252 url("../images/about/heart.png") no-repeat 26% 26% fixed;
+		height: 500px;
+	}
+}
+
+/*------------------------------------*\
+    LARGE SCREENS - DESKTOPS
+\*------------------------------------*/
+
+@media screen and (min-width: 1111px) {
+
+	/* ABOUT ME */
+	
+	.window-1 {
+		background: #85cc29 url("../images/about/lightbulb.png") no-repeat 25% 25% fixed;
+		height: 505px;
+	}
+	
+	.window-2 {
+		background: #f8c137 url("../images/about/gears.png") no-repeat 25% 25% fixed;
+		height: 450px;
+	}
+	
+	.window-3 {
+		background: #258185 url("../images/about/cat.png") no-repeat 25% 25% fixed;
+		height: 450px;
+	}
+	
+	.window-4 {
+		background: #ff5252 url("../images/about/heart.png") no-repeat 25% 25% fixed;
+		height: 500px;
+	}
+}
+

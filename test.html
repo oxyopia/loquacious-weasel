@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>conditionizr</title>
+    	 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		 <script src="js/conditionizr.min.js"></script>
+		 <script src="js/modernizr.js"></script>
+<script>
+$(function() {
+$('head').conditionizr({
+debug      : true,
+scriptSrc  : 'js/conditionizr/',
+styleSrc   : 'css/conditionizr/',
+ieLessThan : { active: false, version: '9', scripts: false, styles: false, class: true, customScript: 'none'},
+chrome     : { scripts: false, styles: false, class: true, customScript: 'none' },
+safari     : { scripts: false, styles: false, class: true, customScript: 'none' },
+opera      : { scripts: false, styles: false, class: true, customScript: 'none' },
+firefox    : { scripts: false, styles: false, class: true, customScript: 'none' },
+ie10       : { scripts: false, styles: false, class: true, customScript: 'none' },
+ie9        : { scripts: false, styles: false, class: true, customScript: 'none' },
+ie8        : { scripts: false, styles: false, class: true, customScript: 'none' },
+ie7        : { scripts: false, styles: false, class: true, customScript: 'none' },
+ie6        : { scripts: false, styles: false, class: true, customScript: 'none' },
+retina     : { scripts: false, styles: false, class: true, customScript: 'none' },
+mac    : true,
+win    : true,
+x11    : true,
+linux  : true
+});
+});
+</script>
+ 
+</head>
+<body>
+ <h1>Conditionizr test</h1>   
+</body>
+</html>
